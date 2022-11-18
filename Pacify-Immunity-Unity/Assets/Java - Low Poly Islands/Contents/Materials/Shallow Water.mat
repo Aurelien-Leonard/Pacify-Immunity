@@ -2,14 +2,16 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shallow Water
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _ALPHABLEND_ON
+  m_ValidKeywords:
+  - _ALPHABLEND_ON
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,6 +70,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BranchPhase: 0
     - _BumpScale: 1
@@ -104,7 +107,7 @@ Material:
     - _ZWrite: 0
     - __dirty: 0
     m_Colors:
-    - _Color: {r: 0.047659293, g: 0.45688182, b: 0.4811321, a: 0.7607843}
+    - _Color: {r: 0.019164566, g: 0.34014866, b: 0.3584906, a: 0.7607843}
     - _DeepColor: {r: 0.08810965, g: 0.19989192, b: 0.33962262, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShalowColor: {r: 0.56287825, g: 0.78748345, b: 0.8584906, a: 0}
@@ -114,3 +117,4 @@ Material:
     - _WaterColor: {r: 0, g: 0.047912337, b: 0.103773594, a: 0}
     - _WaterDeepColor: {r: 0, g: 0.76483583, b: 1, a: 0}
     - _WaterShallowColor: {r: 0.48584908, g: 0.8660529, b: 1, a: 0}
+  m_BuildTextureStacks: []
